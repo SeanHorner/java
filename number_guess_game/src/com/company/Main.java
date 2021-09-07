@@ -1,7 +1,7 @@
 /*
  *  Creator:    Sean Horner
  *  Created:    09.03.2021
- *  Updated:    09.04.2021
+ *  Updated:    09.07.2021
  *  Purpose:    This is the code for a simple math game where the user must guess a
  *              combination of randomly generated integers (increasing in range and
  *              number as the player succeeds).
@@ -127,6 +127,7 @@ class game {
 
         return switch (n) {
             case 1 -> """
+                    
                     * Success! The computer logs in just as Rick finally bests the              *
                     * battle-hardened Gazorpazorpian. Rick heads over to the console and puts   *
                     * in a few lines of code.                                                   *
@@ -140,6 +141,7 @@ class game {
 
                     """;
             case 2 -> """
+                    
                     * Success! You're logged in! After Rick mops up the rest of the Federation  *
                     * soldiers, he jogs over to the console and enters a few commands.          *
 
@@ -154,6 +156,7 @@ class game {
 
                     """;
             case 3 -> """
+                    
                     * Success! The console logs into the server. You turn around in time to see *
                     * Rick being menaced by Supernova with a micro-sized Jupiter, his portal    *
                     * gun a few feet out of his reach. Just before she brings the micro-planet  *
@@ -180,6 +183,7 @@ class game {
 
                     """;
             case 4 -> """
+                    
                     * Success! As you press the carriage return the final time, the invisible   *
                     * paper un-spools and floats off somewhere. You turn around and, much to    *
                     * your surprise, you see Rick and the Devil chilling out on some beanbags   *
@@ -204,6 +208,7 @@ class game {
 
                     """;
             case 5 -> """
+                    
                     Morty: Okay, now *this* seems really weird Rick, are we in a dream?
                     Rick:  Yes Morty, it would seem that, as in all poorly-written fiction,
                            we're just now coming out of a Dallas-esque "everything is okay"
@@ -227,6 +232,7 @@ class game {
 
         return switch (n) {
             case 1 -> """
+                    
                     * Wrong! The computer shuts down with a loud siren. You've tripped the      *
                     * alarm. Rick turns his head to chastise you for your idiocy when suddenly  *
                     * the tip of a Gazorpazorpian spear bursts forth from Rick's chest,         *
@@ -234,6 +240,7 @@ class game {
 
                     """;
             case 2 -> """
+                    
                     * Failure! Through a screaming siren, the console declares:                 *
 
                     Console:  Incorrect password entry, self-destruct mechanism activated,
@@ -247,6 +254,7 @@ class game {
 
                     """;
             case 3 -> """
+                    
                     * Failure! But the console offers you another chance. It reads:             *
 
                                           *** To try again, press enter ***
@@ -260,6 +268,7 @@ class game {
 
                     """;
             case 4 -> """
+                    
                     * Wrong! The typewriter disappears in a puff of smoke! You turn to Rick to  *
                     * protest, but he's not there! Nor is the Devil?! In fact, there's nothing  *
                     * at all in the room. There is no room. You're suddenly in an inky black    *
@@ -267,6 +276,7 @@ class game {
 
                     """;
             case 5 -> """
+                    
                     * Sirens begin blaring. Suddenly, you snap awake in your bed. Wait, what?   *
                     * you think to yourself. Was it all a dream? Well that doesn't matter right *
                     * now because school started 10 minutes ago! You launch yourself out of bed *
