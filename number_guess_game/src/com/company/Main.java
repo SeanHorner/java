@@ -316,7 +316,7 @@ public class Main {
 
                     Rick:  Morty, you idiot, that's not a number!
 
-                    * A number this time, please:/s
+                    * A number this time, please:
                     """);
             guess = playerInputCollection();
         }
@@ -381,6 +381,10 @@ public class Main {
                     break;
                 }
             }
+
+            // empty the random number and player guess vectors
+            nums.clear();
+            guesses.clear();
 
             // print the level success and increase the level by one
             // or print the failure message, depending on the proceed flag
